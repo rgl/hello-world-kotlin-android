@@ -1,7 +1,7 @@
 build: debug
 
-test:
-	./gradlew testDebug
+unit-test:
+	./gradlew testDebugUnitTest
 
 debug:
 	./gradlew assembleDebug

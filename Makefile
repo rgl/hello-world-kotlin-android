@@ -3,6 +3,10 @@ build: debug
 unit-test:
 	./gradlew testDebugUnitTest
 
+# NB this requires a running emulator.
+ui-test:
+	./gradlew connectedDebugAndroidTest
+
 debug:
 	./gradlew assembleDebug
 

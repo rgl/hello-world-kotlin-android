@@ -1,5 +1,5 @@
 macos_instance:
-  image: ghcr.io/cirruslabs/macos-ventura-xcode:14.3
+  image: ghcr.io/cirruslabs/macos-ventura-xcode:15-beta
 task:
   script: |
     make build
